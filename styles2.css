@@ -1,0 +1,507 @@
+header {
+  height: 60px;
+  width: 100%;
+  background: #563d7c;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+#img-boostrapt {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 9px;
+  left: -21px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#bara-stanga {
+  list-style-type: none;
+
+}
+
+.stanga {
+  display: inline;
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+.stanga-scris {
+  color: #cbbde2;
+  position: relative;
+  top: -5px;
+  left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.stanga-scris:hover {
+  color: white;
+}
+
+.dreapta {
+  display: inline ;
+  float: right;
+  position: relative;
+  top: -50px;
+  right: 200px;
+  margin: 10px 10px 10px 10px;
+}
+
+#download {
+  font-size: 22px;
+  padding: 10px;
+  color: yellow;
+  background: #563d7c;
+  border-radius: 5px;
+  float: right;
+  position: absolute;
+  right: 30px;
+  top: 24px;
+  border: 1px solid yellow;
+}
+
+#download:hover {
+  color: black;
+  background: yellow;
+}
+
+.dropbtn {
+  background-color: #563d7c;
+  color: #cbbde2;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  right: 220px;
+  top: -40px;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.section-1 {
+  height: 800px;
+  width: 100%;
+}
+
+.section-2 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.section-3 {
+  height: 100px;
+  width: 100%;
+}
+
+#titlu-boostrapt {
+  font-family: 'Times New Roman', Times, serif;
+  color: #563d7c;
+  font-size: 50px;
+  position: relative;
+  top: 40px;
+  left: 200px;
+}
+
+#continut {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 50px 800px 0px 200px;
+  letter-spacing: 1px;
+}
+
+#continut2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 20px 800px 0px 200px;
+  letter-spacing: 1px;
+}
+#langa {
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+}
+
+.getstarted {
+  font-size: 28px;
+  padding: 12px 65px 12px 65px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #563d7c;
+  border-radius: 5px;
+  position: relative;
+  left: 13%;
+  top: 25px;
+  border: 1px solid #563d7c;
+}
+
+.getstarted:hover {
+  color: white;
+  background: #563d7c ;
+}
+
+.download-2 {
+  font-size: 28px;
+  padding: 12px 65px 12px 65px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  border-radius: 5px;
+  position: relative;
+  left: 14%;
+  top: 25px;
+  border: 1px solid #563d7c;
+}
+
+.download-2:hover {
+  color: white;
+  background: #563d7c ;
+}
+
+#versiunea {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: 20px;
+  left: 13%;
+}
+
+#reclama1 {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  top: 10px;
+  left: 13%;
+}
+
+#card-1, #card-2, #card-3 {
+    display: inline-block;
+    height: 100%;
+    width: 32%;
+    background: rgb(235, 232, 232);
+    
+}
+
+#card-2 {
+margin: 0 10px 0 10px;
+}
+
+svg {
+  position: relative;
+  left: 20px;
+  color:blue;
+}
+#h1-card1, #h1-card2, #h1-card3, #img-card3 {
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+}
+
+#p-card1, #p1-card1, #p2-card1, #p1-card2, #p1-card3 {
+  position: relative;
+  margin: 0 100px 0 0;
+  left: 20px;
+  font-size: 20px;
+}
+
+.dolar, .install, #v {
+color: blue;
+}
+
+#p1-card2 {
+  margin: 0 30px 0 0
+}
+
+#css-only, #js-only, #cod {
+  position: relative;
+  left: 20px;
+}
+
+.cod {
+  overflow-y: auto;
+  margin: 0 30px 0 0
+}
+
+#img-card3 {
+  width: 400px;
+  height: 200px;
+}
+
+.buton {
+  font-size: 18px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.buton:hover {
+  color: white;
+  background: blue;
+}
+
+.barajos1 {
+  display: inline;
+  margin: 0 10px 0 10px
+  
+}
+
+#scris-section3 {
+  position: relative;
+  left: 50px;
+}
+
+.final {
+  color: black;
+}
+
+.linie {
+  margin-right: 75%;
+  position: relative;
+  top: 10px;
+  left: 20px
+}
+
+@media only screen and (max-width: 1300px) {
+  
+  .dreapta, .dropbtn {
+    display: none;
+  }
+  
+
+.section-1 {
+  height: 1300px;
+}
+
+#titlu-boostrapt {
+  font-size: 50px;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+#continut {
+  margin: 50px 600px 20px 50px;
+}
+
+#continut2 {
+  margin: 20px 600px 0px 50px;
+}
+
+#langa {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.getstarted {
+  font-size: 25px;
+  padding: 10px 40px 10px 40px;
+  position: relative;
+  left: 5%;
+}
+
+.download-2 {
+  font-size: 25px;
+  padding: 10px 40px 10px 40px;
+  position: relative;
+  left: 6%;
+}
+
+#versiunea {
+  position: relative;
+  left: 5%;
+}
+
+
+#p-card1, #p1-card1, #p2-card1, #p1-card2, #p1-card3 {
+  margin: 0 90px 0 0 ;
+}
+
+#img-card3 {
+  width: 220px;
+  height: 200px;
+}
+
+#card-1, #card-2, #card-3 {
+  height: 115%;
+  width: 32%;
+  
+}
+
+.section-3 {
+  position: relative;
+  top: 100px;
+  height: 100px;
+  width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  #img-boostrapt{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: -45px;
+  }
+  
+  .stanga {
+    margin: 0px 0px 0px 7px;
+  }
+  
+  .stanga-scris {
+    top: -25px;
+    left: -20px;
+    font-size: 15px;
+   
+  }
+  
+  .stanga-scris:hover {
+    color: white;
+  }
+
+  #download {
+    font-size: 10px;
+    right: 200px;
+    top: 40px;
+  }
+
+  .section-1 {
+    height: 900px;
+  }
+
+  #titlu-boostrapt {
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    left: 50px;
+  }
+  
+  #continut {
+    margin: 50px 0px 0px 50px;
+    position: relative;
+    top: 150px;
+  }
+  
+  #continut2 {
+    margin: 20px 00px 0px 50px;
+    position: relative;
+    top: 150px;
+  }
+
+  #langa {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+  }
+
+  .getstarted {
+    font-size: 25px;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    top: 170px;
+    left: 5%;
+  }
+  
+  .download-2 {
+    font-size: 25px;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    top: 170px;
+    left: 6%;
+  }
+  
+  #versiunea {
+    position: relative;
+    top: 170px;
+    left: 5%;
+  }
+
+  #reclama1 {
+    position: relative;
+    top: 170px;
+  
+  }
+
+  .section-2 {
+    height: 600px;
+    width: 100%;
+    display: contents;
+  }
+  #card-1 {
+    height: 100%;
+    width: 100%;
+  }
+
+  #card-2 {
+    margin: 0 0 0 0;
+    position: relative;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #card-3 {
+    position: relative;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+  }
+
+  #img-card3 {
+    width: 400px;
+    height: 200px;
+  }
+
+  .section-3 {
+    position: relative;
+    top: 150px;
+  }
+
+  #scris-section3 {
+   margin: 0 100px 0 0;
+  }
+}
